@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+        body {
+        margin:0;
+        padding:0;
+    }
+        .background {
+            /* background-image: url(https://images.unsplash.com/photo-1489641493513-ba4ee84ccea9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+            background-image: url(https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .blur {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            height: 40%;
+            width: 100%;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 100px;
+            color: blanchedalmond;
+            padding: 8%;
+
+
+        }
+
+        .button {
+            display: flex;
+            padding: 5%;
+            font-size: 100px;
+            background-color: transparent;
+            margin-top: 5%;
+            margin-left: 2%;
+            border-color: white;
+            width: 98%;
+
+        }
+        
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            background-color: yellowgreen;
+            font-size:3vh;
+            margin-top:0vh;
+            height: 60px;
+            width:100%;
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            margin:2.5vh;
+            /* margin-left:2.5vh;
+            margin-right:2.5vh; */
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+        }
+        li:hover{
+            cursor:pointer;
+            text-shadow: 4px 4px 4px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rules</title>
+    <script src="create.js"></script>
+    <script src="backend.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./rules">How to Play</a></li>
+                    <li><a href="./quiz">Play Individually</a></li>
+                    <li><a href="./join">Join a Team</a></li>
+                    <li><a href="./create">Create a Team</a></li>
+                    <li><a href="./login">Login</a></li>
+                    <li><a href="./signup">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="background">
+
+        <div class="blur">
+            <div class="heading">
+                HOW TO PLAY
+            </div>
+        </div class="rules">
+        <!-- <button class="button" onclick="func()">rule1</button>
+        <button class="button">rule 2</button>
+        <button class="button">rule 3</button> -->
+        <input type="button" value="Rule-1" class="button" onclick="func()">
+        <input type="button" value="Rule-2" class="button">
+        <input type="button" value="Rule-3" class="button">
+    </div>
+</body>
+
+</html>

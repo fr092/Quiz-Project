@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Quiz</title>
+
+  
+
+</head>
+<body background="https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" >
+    <script src="backend.js"></script>
+    <nav class="nav-wrapper black">
+        <div class="container">
+            <a class="brand-logo center">QUIZ</a>
+        </div>
+    </nav>
+
+    <section class="container section">
+        <div class="row">
+            <div class="col s12 l6 offset-l3">
+                <form class="myform" name="id" >
+                <h4 class="center-align white-text">CONTESTENT NAME</h4>
+            
+                <div class="progress yellow">
+                    <div class="indeterminate"></div>
+                </div>
+
+                <div class="input-field">
+                    <i class="material-icons white-text prefix">account_box</i>
+                    <input type="text" class="white-text" id="name">
+                    <label for="name">Name Here</label>
+                    <p class="center"><button type="submit" class="btn blue" 
+                        onclick="this.style.display='none'">Submit Name</button></p>
+                </div>
+
+                <div>
+                    <p class="white-text green">QUESTION</p>
+                    <button class="black-text white ">OPTION1</button><br><br>
+                    <button class="black-text white ">OPTION2</button><br><br>
+                    <button class="black-text white ">OPTION3<button><br>
+                </div>
+
+                <div class="progress yellow">
+                    <div class="indeterminate"></div>
+                </div>
+
+                <p class="center"><a  class="btn blue">NEXT</a></p>
+                
+            </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
